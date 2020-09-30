@@ -1,0 +1,37 @@
+selection sort: select minimum and put it at starting pos
+1. all cases-O(n2)
+2. not stable by default but can be made stable by shifting instead of swapping
+3. minimum swaps are needed in this sort
+
+bubble sort: move greatest element at last by continuos swapping
+1. best case-O(n)-already sorted other O(n2)
+2. stable
+
+insertion sort: find the right position of element in sorted array
+1. best case-O(n) already sorted others O(n2)
+2. stable
+3. best for almost sorted array
+4. see recursive version  
+
+merge sort:
+1. all cases-O(nlogn)
+2. best for linked list- bcoz merging is efficient and random accesses are less 
+3. stable
+4. used in external sorting   
+
+quick sort:
+1. worst case-O(n2) other O(nlogn)
+2. best for arrays due to no extra space 
+3. not stable by default
+4. tailcall optimization done to reduce space to logn
+
+
+counting sort:
+1. O(n+k)
+2. stable
+3. can be used for negative nos also or numbers between a given range
+
+radix sort:
+1. O(d*(n+b))
+2. stable
+3. not better than other algos due large hidden constraints
